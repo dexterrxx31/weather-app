@@ -1,7 +1,14 @@
-<div class="main-box">
-    <form action="/" method="post">
-        <label for="cityInput">City Name : </label>
-        <input id="cityInput" type="text" name="cityName">
-        <button type="submit">Go</button>
-    </form>
-</div>
+<%-include("header")-%>
+    <div class="container main-box">
+        <form action="/" method="post">
+            <div class="row">
+                <div class="input-group">
+                    <div class="col-4 form-outline offset-4">
+                        <input id="cityInput" type="text" name="cityName" placeholder="City Name" class="form-control">
+                    </div>
+                    <button type="submit" name="button" class="btn btn-primary btn-md">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<%-include("footer")-%>

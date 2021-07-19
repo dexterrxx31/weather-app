@@ -1,6 +1,15 @@
-.main-box{ 
-    margin-top: 300px;
+.main-box {
+  margin-top: 300px;
 }
-body{
-    background-color: aquamarine;
+body {
+  background-color: aquamarine;
+}
+.weather-page-box {
+  margin-top: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.192);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #b1f6e5;
+  font-family: "Satisfy", cursive;
 }
